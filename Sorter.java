@@ -1,13 +1,14 @@
 public class Sorter{
     public static void main(String[] args) {
         System.out.println("Hello");
-        System.out.println("Sellecion Sort");
+        
 
-
+        sellectionSort();
         insertionSort();
     }
 
     public static void insertionSort() {System.out.println("insertionSort");    }
 
+    public static void sellectionSort() {System.out.println("sellectionSort");    }
 
 }
